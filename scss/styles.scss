@@ -22,3 +22,26 @@ h1 {
     left: auto;
   }
 }
+
+#info {
+  .image-div {
+      width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#albums {
+  .image-div{
+    width: 50%;
+    float: left;
+    img {
+      width: 100%;
+    }
+  }
+}
+#map {
+  height: 600px;
+  border: solid black 2px;
+}
