@@ -17,7 +17,7 @@ TopArtists.prototype.getArtists = function (country, displayFunction) {
     _this.artistData = response;
     displayFunction(_this);
   }).fail(function(error) {
-    $('.error').text(JSON.stringify(error));
+    $('.error').text("Invalid country. Try another.");
   });
 };
 

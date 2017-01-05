@@ -1,3 +1,24 @@
 h1 {
   text-align: center;
 }
+
+#result-artists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.topArtist {
+  border: solid black 2px;
+  height: 300px;
+  width: 250px;
+  position: relative;
+  .image-div{
+    width: 174px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+  }
+}
